@@ -1,0 +1,132 @@
+.home {
+    background-image: url('../img/header@x1.png');
+    background-repeat: no-repeat;
+    background-position: 75% 45%;
+    padding-top: 50px;
+    padding-bottom: 69px;
+
+    @media screen and (max-width: 1199px) {
+        background-size: 50%;
+        background-position: 88% 50%;
+    }
+
+    @media screen and (max-width: 991px) {
+        background-size: 41%;
+        background-position: 91% 50%;
+    }
+
+    @media screen and (max-width: 765px) {
+        background-size: 41%;
+        background-position: 90% 50%;
+    }
+
+    @media screen and (max-width: 575px) {
+        background-size: 41%;
+        background-position: 40% 40%;
+    }
+
+
+
+    &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+            
+        }
+
+    &__nav ul {
+    display: inline-flex;
+    
+        }
+
+    &__nav li {
+    padding-right: 38px;
+    text-transform: uppercase;
+    
+    }    
+
+    &__nav {
+    
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: -40px;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+    
+    }
+
+    &__nav li a {
+    text-decoration: none;
+    color: inherit;
+    padding-top: 6px;
+    }
+
+
+    &__nav li a:hover {
+        border-top: 3px solid #ff6033;
+                }     
+    
+
+           
+
+    &__body h2 {
+    padding-top: 270px;
+    padding-bottom: 34px;
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 25px;
+    margin-left: -5px;
+
+    @media screen and (max-width: 575px) {
+    font-size: 48px;    
+    }
+    }
+
+    &__body p {
+    margin-top: 3px;    
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 26px;
+    }
+
+    &__button--orange {
+    
+    background-color: #ff6033;
+    padding: 19px 27px;
+    margin-left: -2px;
+    margin-bottom: 285px;
+    }
+
+    &__button--orange:hover {
+        
+    color: black;
+    border: none;
+    background-color: red;
+    text-decoration: none;
+    transition: 0.2s;
+        
+    }
+
+    &__scroll img {
+    margin-top: 18px;
+    padding-top: 294px;
+    }
+
+    &__scroll {
+        @media screen and (max-width: 575px) {   
+            display: none;
+            }
+    }
+
+    
+}

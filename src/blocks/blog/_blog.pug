@@ -1,0 +1,41 @@
+mixin blog
+    .blog
+        .container.container--lg
+                .row
+                    .col-12
+                     .blog__title
+                        h1 Blog
+                    .blog__subtitle  
+                        p Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. 
+                .blog__posts
+                                .row
+                                    .col-xl-4.col-lg-4.col-md-6.col-sm-6.col-12
+                                        .blog__post1.gradient
+                                            img(src="./img/blog/blog1_@1.jpg" alt="post1")
+                                            .data
+                                                time 20 
+                                                p NOV
+                                            .description
+                                                p Green Smoothies: Too Much of a Good Thing?
+                                                p.author By Auskteez - 2 hours ago
+                                    .col-xl-4.col-lg-4.col-md-6.col-sm-6.col-12
+                                        .blog__post2.gradient
+                                            img(src="./img/blog/blog2_@1.jpg" alt="post2")
+                                            .data
+                                                time 14 
+                                                p NOV
+                                            .description
+                                                p Growing Food and a “Thirst” for Innovation
+                                                p.author By Auskteez - 3 hours ago
+                                    .col-xl-4.col-lg-4.offset-lg-0.offset-md-3.col-sm-6.offset-sm-3.col-12
+                                        .blog__post3.gradient
+                                            img(src="./img/blog/blog3_@1.jpg" alt="post3")
+                                            .data
+                                                time 10 
+                                                p NOV
+                                            .description
+                                                p Pesticides & Food: What You Need to Know
+                                                p.author By Auskteez - 6 hours ago
+                .blog__button
+                    .blog__button--style
+                        button(type='button' class='blogbutton') VIEW MORE

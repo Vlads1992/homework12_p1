@@ -1,0 +1,15 @@
+mixin subscribe
+    .subscribe
+        .container.container--lg
+            .row
+                .col-xl-6.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-12    
+                    .subscribe__title
+                        h2 Subscribe To Us
+                    .subscribe__subtitle 
+                        p Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            form(method="GET")
+                .row
+                    .col-xl-6.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-9
+                        input(class="subscribe__input" type="email" name="email" placeholder="Your email address..." required)
+                    .col-xl-5.offset-xl-0.col-lg-5.col-md-5.col-sm-12.col-12
+                        input(type="submit" class="subscribe__button" value="SUBSCRIBE")

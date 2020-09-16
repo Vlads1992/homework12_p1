@@ -1,0 +1,28 @@
+//base
+
+html {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: inherit;
+}
+
+.container--lg {
+    max-width: 1200px;
+}
+
+.button {
+
+    display: inline-block;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration: none;
+}

@@ -1,0 +1,188 @@
+.blog {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+    background-color: #b07cf7;
+
+    &__title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    
+    margin-bottom: 50px;
+    text-align: center;
+    }
+
+    &__subtitle {
+        /* Text style for "Dolore magna a" */
+    
+    color: white;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-bottom: 44px;
+    }
+    
+    &__posts img {
+    max-width: 100%;
+    height: auto;
+    
+    }
+
+    &__posts img:hover {
+    
+    background-color: #fbfbf7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        /* Style for "gradient" */
+        
+        }
+        
+    &__post1 {
+        
+    position: relative;
+    @media screen and (max-width: 765px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 575px) {
+        margin-top: 30px;
+    }
+        }
+
+    &__post3 {
+
+        @media screen and (max-width: 991px) {
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: 765px) {
+            margin-top: 5px;
+        }
+    
+        @media screen and (max-width: 575px) {
+            margin-top: 30px;
+        }
+    }    
+        
+                
+}
+
+.gradient {
+    position: relative;
+    display: inline-block;
+}
+
+.gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0) 40%);
+    
+}
+
+.gradient:hover:after {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    /* Base text style */
+
+color: white;
+font-family: Raleway;
+line-height: 25px;
+
+/* Text style for "Green Smoothie" */
+font-size: 20px;
+font-weight: 700;
+z-index: 1;
+}
+
+.data {
+    
+    position: absolute;
+    left: 22px;
+    top: 20px;
+    /* Style for "bg" */
+width: 60px;
+height: 60px;
+
+
+background-color: rgba(38, 38, 38, 0.5);
+border-radius: 5px;
+text-align: center;
+padding-top: 5px;
+}
+
+.data time
+{
+    color: white;
+font-family: Raleway;
+font-size: 32px;
+font-weight: 700;
+line-height: 25px;
+
+}
+
+.data p {
+    color: white;
+font-family: Raleway;
+font-size: 21px;
+font-weight: 800;
+line-height: 25px;
+}
+
+.author {
+    /* Base text style */
+
+color: white;
+font-family: Raleway;
+line-height: 25px;
+
+/* Text style for "Green Smoothie" */
+font-size: 20px;
+font-weight: 700;
+
+/* Text style for "By Auskteez -" */
+font-size: 13px;
+font-weight: 300;
+}
+
+.blogbutton {
+        width: 200px;
+        height: 55px;
+        background-color: #f72b3b;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        border: none;
+        margin: auto;
+          display: flex;
+          justify-content: center;
+        margin-top: 51px;
+        
+        }
+
+.blogbutton:hover {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+    transition: 0.2s;
+}

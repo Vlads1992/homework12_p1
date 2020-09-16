@@ -1,0 +1,30 @@
+mixin home
+    .home
+        .container.container--lg
+            .row
+                .col-12
+                    .home__header
+                        a.home__link(href='#')
+                            svg.icons.icons--home: use(xlink:href="#logo")
+                        .home__nav
+                            ul
+                                li 
+                                    a(href="" ) Home
+                                li 
+                                    a(href="" ) About
+                                li 
+                                    a(href="" ) Services
+                                li 
+                                    a(href="#gallery" ) Gallery
+                                li 
+                                    a(href="" ) Blog
+                                li 
+                                    a(href="" ) Contact
+                    .col-xl-4.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-12                 
+                        .home__body
+                            h2 Fresh Life
+                            p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                            a(href='#' class='button home__button--orange') GET FREE NOW
+                    .col-12.d-flex.justify-content-center
+                            a(href="#contact")
+                                img(src="./img/scroll.png" class="home__scroll" alt="scroll")

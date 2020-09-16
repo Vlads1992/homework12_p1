@@ -1,0 +1,126 @@
+.subscribe {
+    background-image: url('../img/subscribeX1.png');
+    background-repeat: no-repeat;
+    background-position: 81% 45%;
+    padding-top: 145px;
+    padding-bottom: 163px;
+    
+    @media screen and (max-width: 1199px) {
+        background-size: 50%;
+        background-position: 98% 50%;
+    }
+
+    @media screen and (max-width: 991px) {
+        background-size: 41%;
+        background-position: 98% 50%;
+    }
+
+    @media screen and (max-width: 765px) {
+        background-size: 41%;
+        background-position: 98% 45%;
+    }
+
+    @media screen and (max-width: 575px) {
+        background-size: 51%;
+        background-position: 40% 20%;
+        padding-top: 45px;
+    }
+
+    &__title {
+        /* Text style for "Subscribe To U" */
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-bottom: 34px;
+    margin-left: -1px;
+    }
+
+    &__subtitle {
+        /* Text style for "Dolor sit amet" */
+    
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: -5px;
+    margin-bottom: 28px;
+    margin-left: -2px;
+
+
+    @media screen and (max-width: 575px) {
+    padding-top: 150px;
+    }
+
+    }
+
+    &__form {
+        margin-top: 8px;
+    }
+    
+    &__input {
+        border: 1px solid #262626;
+        width: 100%;
+    height: 55px;
+    padding-left: 15px;
+    margin-left: 1px;
+    font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+    
+    &__input::placeholder {
+        
+        opacity: 0.5;
+        color: #262626;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+    
+    
+    &__button {
+    /* Text style for "SUBSCRIBE" */
+    width: 170px;
+    height: 55px;
+    background-color: #96b92c;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+
+    @media screen and (max-width: 765px) {
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 575px) {
+        margin-top: 20px;
+    }
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    }
+    
+    &__button:hover {
+
+        background-color: black;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+
+    }
+}
+
+
+
+
+

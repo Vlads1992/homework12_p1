@@ -1,0 +1,86 @@
+.about {
+    background-color: #00b5b5;
+    background-image: url('../img/about@x1.png');
+    background-position: 28% 50%;
+    background-repeat: no-repeat;
+
+
+    @media screen and (max-width: 1199px) {
+        background-size: 50%;
+        background-position: 8% 50%;
+    }
+
+    @media screen and (max-width: 991px) {
+        background-size: 41%;
+        background-position: 8% 50%;
+    }
+
+    @media screen and (max-width: 765px) {
+        background-size: 41%;
+        background-position: 8% 50%;
+    }
+
+    @media screen and (max-width: 575px) {
+        background-size: 41%;
+        background-position: 40% 20%;
+    }
+
+    &__wrapper {
+        padding-top: 180px;
+        padding-right: 28px;
+        padding-bottom: 235px;
+
+        @media screen and (max-width: 575px) {
+            padding-top: 50px;
+            padding-bottom: 10px;
+        }
+    }
+
+  
+
+    &__title {
+        /* Text style for "About Us" */
+
+        color: white;
+        font-family: Raleway;
+        font-size: 90px;
+        font-weight: 700;
+        margin-top: -11px;
+        margin-bottom: -5px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 48px;    
+            }
+        
+        @media screen and (max-width: 575px) {
+            font-size: 48px;    
+            }
+    }
+    &__paragraph {
+        color: white;
+        font-family: Raleway;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: 21px;
+        margin-bottom: 22px; 
+        
+        @media screen and (max-width: 575px) {
+            padding-top: 130px;
+        }
+    }
+
+    &__paragraph1 {
+        color: white;
+        font-family: Raleway;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: -14px;
+        margin-bottom: 22px;  
+        
+        @media screen and (max-width: 575px) {
+            padding-top: 30px;
+        }
+    }
+}

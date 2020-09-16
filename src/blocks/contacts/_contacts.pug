@@ -1,0 +1,33 @@
+mixin contacts
+    .contacts
+        .container.container--lg
+            .row
+                .col-12
+                    .contacts__header
+                        #contact.contacts__title
+                            h2 Contact
+                        .contacts__subtitle
+                            p For new projects, ideas, business or anything
+                            p you'd like to discuss, contact with me!
+            .row
+                .col-xl-5.col-lg-5.col-md-5.col-sm-5.col-xs-5.pr-0
+                    form(action="index.html"  class="contacts__form" method="GET")
+                        input(class="contacts__solid" type="text" id="name" name="name" placeholder="Your name...")
+                        input(class="contacts__solid" type="email" id="email" name="email" placeholder="Your email...")
+                        input(class="contacts__solid" type="text" id="number" name="number" placeholder="Your phone number...")
+                        textarea Your message
+                        button(type="submit" class="contacts__button" value="Submit") Submit
+                .offset-xl-2.offset-lg-2
+                    h3.contacts__contacts Address
+                    p.contacts__information 123 City name, Street, City, Country
+                    h3.contacts__contacts Email
+                    p.contacts__information cahee@domain.com
+                    h3.contacts__contacts Phone
+                    p.contacts__information +012 345 6789 
+        .contacts__footer
+            .container
+                .row
+                    .col-12.d-flex.justify-content-between
+                        p.contacts__copyright &copy; 2015 Company. All rights reserved.
+                        img(class="contacts__smalllogo" src="./img/logo_footer.svg" alt="logo small")
+                        p.contacts__author Made with <span>love</span> by Auskteez
