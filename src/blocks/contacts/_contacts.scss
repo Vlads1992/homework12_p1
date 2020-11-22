@@ -1,8 +1,14 @@
+
+
 .contacts {
     background-image: url('../img/contact@x1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 102px;
+
+
+    
+
 
 
     &__title {
@@ -171,4 +177,59 @@ font-size: 25px;
 font-weight: 400;
 line-height: 25px;
     }
+
+
+    &__phone, &__mail {
+        display: block;
+        color: #262626;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        padding-bottom: 23px;
+        text-decoration: none;
+    }
+
+    &__phone:hover, &__mail:hover {
+        color:  #ff2b58;
+    }
+
+
+
+
+     &__foot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+    @media screen and (max-width: 575px) {
+        .contacts__address {
+            text-align: center;
+        }
+    }
+
+
+    @media screen and (max-width: 575px) {
+        .contacts__foot {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        .contacts__copyright {
+            margin-bottom: 5px;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        .contacts__smalllogo {
+            align-self: center;
+            margin-bottom: 5px;
+        }
+    }
+
 }
